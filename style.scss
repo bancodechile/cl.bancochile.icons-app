@@ -1,10 +1,36 @@
+$icons-app-path: "../lib/cl.bancochile.icons-app/fonts" !default;
+
+$bch-icon-mail: "\e900";
+$bch-icon-avanzar: "\e901";
+$bch-icon-ayuda: "\e902";
+$bch-icon-bell: "\e903";
+$bch-icon-celular: "\e904";
+$bch-icon-cerrar: "\e905";
+$bch-icon-check: "\e906";
+$bch-icon-config: "\e907";
+$bch-icon-editar: "\e908";
+$bch-icon-error: "\e909";
+$bch-icon-flecha-abajo: "\e90a";
+$bch-icon-flecha-arriba: "\e90b";
+$bch-icon-home: "\e90c";
+$bch-icon-mas: "\e90d";
+$bch-icon-menos: "\e90e";
+$bch-icon-menu: "\e90f";
+$bch-icon-ok: "\e910";
+$bch-icon-salir-app: "\e911";
+$bch-icon-selector: "\e912";
+$bch-icon-telefono: "\e913";
+$bch-icon-twitter: "\e914";
+$bch-icon-volver: "\e915";
+$bch-icon-youtube: "\e916";
+
 @font-face {
     font-family: 'font-banco-chile-app';
-    src:    url('fonts/font-banco-chile-app.eot?z684h7');
-    src:    url('fonts/font-banco-chile-app.eot?z684h7#iefix') format('embedded-opentype'),
-        url('fonts/font-banco-chile-app.ttf?z684h7') format('truetype'),
-        url('fonts/font-banco-chile-app.woff?z684h7') format('woff'),
-        url('fonts/font-banco-chile-app.svg?z684h7#font-banco-chile-app') format('svg');
+    src: url('#{$icons-app-path}/font-banco-chile-app.eot?z684h7');
+    src: url('#{$icons-app-path}/font-banco-chile-app.eot?z684h7#iefix') format('embedded-opentype'),
+         url('#{$icons-app-path}/font-banco-chile-app.ttf?z684h7') format('truetype'),
+         url('#{$icons-app-path}/font-banco-chile-app.woff?z684h7') format('woff'),
+         url('#{$icons-app-path}/font-banco-chile-app.svg?z684h7#font-banco-chile-app') format('svg');
     font-weight: normal;
     font-style: normal;
 }
