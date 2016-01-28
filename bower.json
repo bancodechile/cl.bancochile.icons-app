@@ -1,16 +1,21 @@
 {
   "name": "cl.bancochile.icons-app",
+  "homepage": "https://github.com/bancodechile/cl.bancochile.icons-app",
   "authors": [
     "Luis Ramos <oxxfreddyxxo@gmail.com>"
   ],
   "description": "Set de iconos apps banco de chile",
-  "main": "",
+  "main": "style.css",
   "moduleType": [],
   "keywords": [
-    "iconos",
-    "icon"
+    "iconos"
   ],
   "license": "MIT",
-  "homepage": "bancochile.cl",
-  "private": true
+  "private": true,
+  "ignore": [
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
 }
