@@ -1,10 +1,10 @@
 @font-face {
     font-family: 'font-banco-chile-app';
-    src:    url('fonts/font-banco-chile-app.eot?53h8fq');
-    src:    url('fonts/font-banco-chile-app.eot?53h8fq#iefix') format('embedded-opentype'),
-        url('fonts/font-banco-chile-app.ttf?53h8fq') format('truetype'),
-        url('fonts/font-banco-chile-app.woff?53h8fq') format('woff'),
-        url('fonts/font-banco-chile-app.svg?53h8fq#font-banco-chile-app') format('svg');
+    src:    url('fonts/font-banco-chile-app.eot?273596');
+    src:    url('fonts/font-banco-chile-app.eot?273596#iefix') format('embedded-opentype'),
+        url('fonts/font-banco-chile-app.ttf?273596') format('truetype'),
+        url('fonts/font-banco-chile-app.woff?273596') format('woff'),
+        url('fonts/font-banco-chile-app.svg?273596#font-banco-chile-app') format('svg');
     font-weight: normal;
     font-style: normal;
 }
@@ -24,6 +24,9 @@
     -moz-osx-font-smoothing: grayscale;
 }
 
+.bch-icon-app:before {
+    content: "\e919";
+}
 .bch-icon-logo-credichile:before {
     content: "\e918";
 }

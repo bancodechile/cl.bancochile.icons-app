@@ -1,5 +1,6 @@
 $icons-app-path: "../lib/cl.bancochile.icons-app/fonts" !default;
 
+$bch-icon-app: "\e919";
 $bch-icon-logo-credichile: "\e918";
 $bch-icon-logo-edwards: "\e917";
 $bch-icon-logo-banco: "\e608";
@@ -56,6 +57,11 @@ $bch-icon-youtube: "\e916";
     -moz-osx-font-smoothing: grayscale;
 }
 
+.bch-icon-app {
+    &:before {
+        content: $bch-icon-app;
+    }
+}
 .bch-icon-logo-credichile {
     &:before {
         content: $bch-icon-logo-credichile;
