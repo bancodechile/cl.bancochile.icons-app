@@ -1,10 +1,10 @@
 @font-face {
     font-family: 'font-banco-chile-app';
-    src:    url('fonts/font-banco-chile-app.eot?273596');
-    src:    url('fonts/font-banco-chile-app.eot?273596#iefix') format('embedded-opentype'),
-        url('fonts/font-banco-chile-app.ttf?273596') format('truetype'),
-        url('fonts/font-banco-chile-app.woff?273596') format('woff'),
-        url('fonts/font-banco-chile-app.svg?273596#font-banco-chile-app') format('svg');
+    src:    url('fonts/font-banco-chile-app.eot?i6jtjb');
+    src:    url('fonts/font-banco-chile-app.eot?i6jtjb#iefix') format('embedded-opentype'),
+        url('fonts/font-banco-chile-app.ttf?i6jtjb') format('truetype'),
+        url('fonts/font-banco-chile-app.woff?i6jtjb') format('woff'),
+        url('fonts/font-banco-chile-app.svg?i6jtjb#font-banco-chile-app') format('svg');
     font-weight: normal;
     font-style: normal;
 }
@@ -24,6 +24,9 @@
     -moz-osx-font-smoothing: grayscale;
 }
 
+.bch-icon-compartir:before {
+    content: "\e91a";
+}
 .bch-icon-app:before {
     content: "\e919";
 }
