@@ -1,10 +1,10 @@
 @font-face {
     font-family: 'font-banco-chile-app';
-    src:    url('fonts/font-banco-chile-app.eot?i6jtjb');
-    src:    url('fonts/font-banco-chile-app.eot?i6jtjb#iefix') format('embedded-opentype'),
-        url('fonts/font-banco-chile-app.ttf?i6jtjb') format('truetype'),
-        url('fonts/font-banco-chile-app.woff?i6jtjb') format('woff'),
-        url('fonts/font-banco-chile-app.svg?i6jtjb#font-banco-chile-app') format('svg');
+    src:    url('fonts/font-banco-chile-app.eot?huhnw1');
+    src:    url('fonts/font-banco-chile-app.eot?huhnw1#iefix') format('embedded-opentype'),
+        url('fonts/font-banco-chile-app.ttf?huhnw1') format('truetype'),
+        url('fonts/font-banco-chile-app.woff?huhnw1') format('woff'),
+        url('fonts/font-banco-chile-app.svg?huhnw1#font-banco-chile-app') format('svg');
     font-weight: normal;
     font-style: normal;
 }
@@ -24,6 +24,24 @@
     -moz-osx-font-smoothing: grayscale;
 }
 
+.bch-icon-group:before {
+    content: "\e91c";
+}
+.bch-icon-map:before {
+    content: "\e91d";
+}
+.bch-icon-qr:before {
+    content: "\e91e";
+}
+.bch-icon-mastercard:before {
+    content: "\e91f";
+}
+.bch-icon-visa:before {
+    content: "\e920";
+}
+.bch-icon-cuenta:before {
+    content: "\e922";
+}
 .bch-icon-compartir:before {
     content: "\e91a";
 }
@@ -41,6 +59,9 @@
 }
 .bch-icon-logo-banchile:before {
     content: "\e601";
+}
+.bch-icon-user:before {
+    content: "\e91b";
 }
 .bch-icon-mail:before {
     content: "\e900";

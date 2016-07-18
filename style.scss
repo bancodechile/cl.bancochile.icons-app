@@ -1,42 +1,12 @@
-$icons-app-path: "../lib/cl.bancochile.icons-app/fonts" !default;
-
-$bch-icon-app: "\e919";
-$bch-icon-logo-credichile: "\e918";
-$bch-icon-logo-edwards: "\e917";
-$bch-icon-logo-banco: "\e608";
-$bch-icon-logo-banchile: "\e601";
-$bch-icon-mail: "\e900";
-$bch-icon-avanzar: "\e901";
-$bch-icon-ayuda: "\e902";
-$bch-icon-bell: "\e903";
-$bch-icon-celular: "\e904";
-$bch-icon-cerrar: "\e905";
-$bch-icon-check: "\e906";
-$bch-icon-config: "\e907";
-$bch-icon-editar: "\e908";
-$bch-icon-error: "\e909";
-$bch-icon-flecha-abajo: "\e90a";
-$bch-icon-flecha-arriba: "\e90b";
-$bch-icon-home: "\e90c";
-$bch-icon-mas: "\e90d";
-$bch-icon-menos: "\e90e";
-$bch-icon-menu: "\e90f";
-$bch-icon-ok: "\e910";
-$bch-icon-salir-app: "\e911";
-$bch-icon-selector: "\e912";
-$bch-icon-telefono: "\e913";
-$bch-icon-twitter: "\e914";
-$bch-icon-volver: "\e915";
-$bch-icon-youtube: "\e916";
-$bch-icon-compartir: "\e91a";
+@import "variables";
 
 @font-face {
     font-family: 'font-banco-chile-app';
-    src:    url('#{$icons-app-path}/font-banco-chile-app.eot?i6jtjb');
-    src:    url('#{$icons-app-path}/font-banco-chile-app.eot?i6jtjb#iefix') format('embedded-opentype'),
-        url('#{$icons-app-path}/font-banco-chile-app.ttf?i6jtjb') format('truetype'),
-        url('#{$icons-app-path}/font-banco-chile-app.woff?i6jtjb') format('woff'),
-        url('#{$icons-app-path}/font-banco-chile-app.svg?i6jtjb#font-banco-chile-app') format('svg');
+    src:    url('#{$icomoon-font-path}/font-banco-chile-app.eot?huhnw1');
+    src:    url('#{$icomoon-font-path}/font-banco-chile-app.eot?huhnw1#iefix') format('embedded-opentype'),
+        url('#{$icomoon-font-path}/font-banco-chile-app.ttf?huhnw1') format('truetype'),
+        url('#{$icomoon-font-path}/font-banco-chile-app.woff?huhnw1') format('woff'),
+        url('#{$icomoon-font-path}/font-banco-chile-app.svg?huhnw1#font-banco-chile-app') format('svg');
     font-weight: normal;
     font-style: normal;
 }
@@ -56,6 +26,41 @@ $bch-icon-compartir: "\e91a";
     -moz-osx-font-smoothing: grayscale;
 }
 
+.bch-icon-group {
+    &:before {
+        content: $bch-icon-group;
+    }
+}
+.bch-icon-map {
+    &:before {
+        content: $bch-icon-map;
+    }
+}
+.bch-icon-qr {
+    &:before {
+        content: $bch-icon-qr;
+    }
+}
+.bch-icon-mastercard {
+    &:before {
+        content: $bch-icon-mastercard;
+    }
+}
+.bch-icon-visa {
+    &:before {
+        content: $bch-icon-visa;
+    }
+}
+.bch-icon-cuenta {
+    &:before {
+        content: $bch-icon-cuenta;
+    }
+}
+.bch-icon-compartir {
+    &:before {
+        content: $bch-icon-compartir;
+    }
+}
 .bch-icon-app {
     &:before {
         content: $bch-icon-app;
@@ -79,6 +84,11 @@ $bch-icon-compartir: "\e91a";
 .bch-icon-logo-banchile {
     &:before {
         content: $bch-icon-logo-banchile;
+    }
+}
+.bch-icon-user {
+    &:before {
+        content: $bch-icon-user;
     }
 }
 .bch-icon-mail {
@@ -196,8 +206,4 @@ $bch-icon-compartir: "\e91a";
         content: $bch-icon-youtube;
     }
 }
-.bch-icon-compartir {
-    &:before {
-        content: $bch-icon-compartir;
-    }
-}
+
